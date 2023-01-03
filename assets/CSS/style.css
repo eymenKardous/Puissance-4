@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "BLOBBYCHUG";
+    src: url(../FONT/BLOBBYCHUG.ttf);
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 19, 150, 1) 51%, rgba(9, 119, 215, 1) 100%);
+}
+
+.cell {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#grid {
+    display: flex;
+    border: 1px solid black;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 19, 150, 1) 51%, rgba(9, 119, 215, 1) 100%);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#revenge {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.endGame {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    background-color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 19, 150, 1) 51%, rgba(9, 119, 215, 1) 100%);
+    color: aliceblue;
+    font-family: BLOBBYCHUG;
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 19, 150, 1) 51%, rgba(9, 119, 215, 1) 100%);
+    font-family: BLOBBYCHUG;
+}
+
+#whoPlay {
+    font-family: BLOBBYCHUG;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(4, 19, 150, 1) 51%, rgba(9, 119, 215, 1) 100%);
+    color: white;
+    border: none;
+}
+
+#pOne {
+    background-color: khaki;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#pTwo {
+    background-color: paleturquoise;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#tablePlayers{
+    font-family: BLOBBYCHUG;
+    color: white;
+}
